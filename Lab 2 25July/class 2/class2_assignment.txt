@@ -1,0 +1,29 @@
+1. Create one list of 5 elements, add two elements at front and two elements at rear.
+2. (a) Create one list of lists (nested list) with following entries.
+   list 1. ME, ISE, CSE, MATH
+   list 2. Ram, Shyam, Sruti, Pankaj, Anuja, Anjali
+   list 3. 17, 18, 18, 17, 19, 18
+   (b) Print Sruti by accesing through index
+   (c) find maximum from list 3 of the nested list
+3. It gives me great pleasure to be here for the 64th annual convocation of the Indian Institute of Technology, Kharagpur. This is a pioneering institute. It was the first of the IITs in our country and in a sense marked the beginning of technical and engineering education after Independence. A convocation ceremony is a landmark for any academic institution. This is a day of reward for years of hard work by the approximately 2,500 students who are graduating today. I must also mention the efforts and sacrifices of their professors and teachers, and their family members. I congratulate all of you and wish you the very best as you step into a world that is defined, driven and developed by technology. I have no doubt that you will contribute to making this world a better place, both professionally and personally, with your education and with your empathy for fellow human beings. IIT Kharagpur has its origins in a committee that was set up by the government shortly after Independence to take stock of technical education. The committee was headed by the British Nobel laureate Dr A.V. Hill. Dr Hill recommended the setting up of an institution modelled on the pattern of MIT in the United States. The result is the Institute we are in today. The use of global experts to conceive this Institute was appropriate. Over the years, IIT Kharagpur and in fact the IIT network and community has become an important window to the world. This is in keeping with our country’s and our civilisation’s character. Exchange of ideas, of expertise, of knowledge – across fields, from engineering to economics, from medicine to management – has contributed to our policy choices and our people’s development. We must continue to celebrate this. The IIT Kharagpur community is a prized resource for India and for the world. As graduating students will soon realise, the IIT Kharagpur brand name and the reputation built by the achievements of generations of illustrious alumni will accompany you wherever you go. You are now part of a transcontinental talent pool that has added value to technology and wealth creation and, above all, to human lives. Your Institute took a major step towards strengthening India’s global academic linkages when it started the International Summer Winter Term Programme. Later the Ministry of Human Resource Development expanded this in the form of the Global Initiative of Academic Networks or GIAN. IIT Kharagpur is the largest member of the IIT family. It has the maximum number of academic units, students and faculty members. It was also the first to diversify and enlarge the ambit of the IIT system from just pure sciences and engineering. IIT Kharagpur was the first to establish a business school, a law school and a medical school. The campus today boasts a Science and Technology Entrepreneurship Park, a Petroleum Engineering Centre, and even a Centre for the Science of Happiness. One day I would like to visit it. Many of these schools and centres were established due to endowments and efforts of alumni. The alumni community’s affection for and continued association with IIT Kharagpur is a role model for other educational institutions.
+ (a) Take the above paragraph in a string variable. 
+ (b) Print the frequency of each word.
+ (c) Find the words whose frequency is greater than 10.
+ (d) Find 5 most frequent word from this text.
+ Do this using Counter.
+4. (a) Create an default list type dictionary which has ordering property maintained.
+       It should have three keys, "a", "b" and "c". 
+       Each key has diffrent list entries in values.
+   (b) Remove last item from the dictionary and print the remaining.
+5. Create one dataframe with the dictionary
+  d = {'col1': [1, 2,3,5,6,7,8], 'col2': [3.0, 4.0, 12.5,4,56,7, 5]}
+  Print all the entries by accessing each cell in the dataframe.
+
+
+
+##### Assignment  ######
+6. Use the file "test_data.txt", where each row tells at what time two user have communicated.
+  first column tells about the time, second and third column denotes two user.
+   (i) Read the file in pandas dataframe.
+   (ii) Create one dictionary using defaultdict, where the index is pair of users and the value is a list at which they have communicated.
+   Two users in a pair (a,b) and (b,a) signifies same.
